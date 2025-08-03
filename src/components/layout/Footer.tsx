@@ -1,14 +1,14 @@
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Instagram, Linkedin, Mail, Twitter } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   
   const socialLinks = [
-    { icon: <Github className="h-5 w-5" />, href: "https://github.com", label: "GitHub" },
-    { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: <Twitter className="h-5 w-5" />, href: "https://twitter.com", label: "Twitter" },
-    { icon: <Mail className="h-5 w-5" />, href: "mailto:contact@example.com", label: "Email" },
+    { icon: <Github className="h-5 w-5" />, href: "https://github.com/Amankrgupta8252", label: "GitHub" },
+    { icon: <Linkedin className="h-5 w-5" />, href: "https://www.linkedin.com/in/aman-gupta-0850782b2/", label: "LinkedIn" },
+    { icon: <Instagram className="h-5 w-5" />, href: "https://www.instagram.com/amankrgupta001/", label: "Instagram" },
+    { icon: <Mail className="h-5 w-5" />, href: "mailto:kramangupta8552@gmail.com", label: "Email" },
   ];
 
   return (

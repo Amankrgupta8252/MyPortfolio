@@ -137,7 +137,7 @@ export default function Contact() {
                   <h3 className="font-medium mb-4">Connect with me</h3>
                   <div className="flex space-x-4">
                     <a
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/in/aman-gupta-0850782b2/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-2 rounded-full bg-muted hover:bg-muted/80 transition-colors"
@@ -148,7 +148,7 @@ export default function Contact() {
                       </svg>
                     </a>
                     <a
-                      href="https://github.com"
+                      href="https://github.com/Amankrgupta8252"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-2 rounded-full bg-muted hover:bg-muted/80 transition-colors"
@@ -159,7 +159,7 @@ export default function Contact() {
                       </svg>
                     </a>
                     <a
-                      href="https://wa.me/15551234567"
+                      href="https://wa.me/8252339216"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-2 rounded-full bg-muted hover:bg-muted/80 transition-colors"

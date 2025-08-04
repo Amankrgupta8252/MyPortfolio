@@ -7,7 +7,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export default function About() {
   const skillCategories = Array.from(new Set(skills.map(skill => skill.category)));
-  
+
   return (
     <>
       {/* Header */}
@@ -26,7 +26,7 @@ export default function About() {
           </motion.div>
         </div>
       </section>
-      
+
       {/* Bio Section */}
       <section className="py-20">
         <div className="container px-4 mx-auto">
@@ -39,11 +39,11 @@ export default function About() {
               viewport={{ once: true }}
               className="md:col-span-2"
             >
-              <div className="aspect-square relative overflow-hidden rounded-2xl border">
-                <img 
-                  src={personalInfo.avatarUrl} 
+              <div className="aspect-square relative overflow-hidden ">
+                <img
+                  src={personalInfo.avatarUrl}
                   alt={personalInfo.name}
-                  className="w-full h-full object-cover"
+                  className="w-[250px] h-[350px] md:w-[300px] md:h-[400px] object-cover rounded-xl shadow-lg"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.src = "https://via.placeholder.com/500x500?text=Profile+Photo";
@@ -65,12 +65,12 @@ export default function About() {
                     </a>
                   </div>
                 </div>
-                
+
                 {personalInfo.resumeUrl && (
                   <div className="mt-6">
-                    <a 
-                      href={personalInfo.resumeUrl} 
-                      target="_blank" 
+                    <a
+                      href={personalInfo.resumeUrl}
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90"
                     >
@@ -80,7 +80,7 @@ export default function About() {
                 )}
               </div>
             </motion.div>
-            
+
             {/* Bio Content */}
             <motion.div
               initial={{ opacity: 0, x: 50 }}
@@ -93,14 +93,14 @@ export default function About() {
               <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="mb-4">{personalInfo.longBio}</p>
                 <p>
-                  I am passionate about creating applications that are not only functional but also 
-                  provide an excellent user experience. My approach to development involves understanding 
-                  the user needs first and then crafting solutions that meet those needs in the most 
+                  I am passionate about creating applications that are not only functional but also
+                  provide an excellent user experience. My approach to development involves understanding
+                  the user needs first and then crafting solutions that meet those needs in the most
                   efficient way possible.
                 </p>
                 <p>
-                  When I'm not coding, you can find me hiking, reading about new technologies, or 
-                  contributing to open source projects. I'm always open to new opportunities and 
+                  When I'm not coding, you can find me hiking, reading about new technologies, or
+                  contributing to open source projects. I'm always open to new opportunities and
                   collaborations, so feel free to reach out!
                 </p>
               </div>
@@ -108,7 +108,7 @@ export default function About() {
           </div>
         </div>
       </section>
-      
+
       {/* Skills Section */}
       <section className="py-20 bg-muted/50">
         <div className="container px-4 mx-auto">
@@ -124,7 +124,7 @@ export default function About() {
               A comprehensive overview of my technical expertise and competencies.
             </p>
           </motion.div>
-          
+
           <Tabs defaultValue={skillCategories[0]} className="w-full max-w-4xl mx-auto">
             <TabsList className="grid grid-cols-2 md:grid-cols-5 mb-8">
               {skillCategories.map((category) => (
@@ -133,7 +133,7 @@ export default function About() {
                 </TabsTrigger>
               ))}
             </TabsList>
-            
+
             {skillCategories.map((category) => (
               <TabsContent key={category} value={category} className="space-y-6">
                 {skills
@@ -161,7 +161,7 @@ export default function About() {
           </Tabs>
         </div>
       </section>
-      
+
       {/* Education & Experience Section */}
       <section className="py-20">
         <div className="container px-4 mx-auto">
@@ -177,7 +177,7 @@ export default function About() {
               My academic background and professional journey.
             </p>
           </motion.div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
             {/* Education */}
             <div>
@@ -210,7 +210,7 @@ export default function About() {
                 ))}
               </div>
             </div>
-            
+
             {/* Experience */}
             <div>
               <h3 className="text-2xl font-bold mb-6">Experience</h3>

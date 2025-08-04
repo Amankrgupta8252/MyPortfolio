@@ -64,7 +64,7 @@ export const personalInfo = {
   location: "Sasaram, Rohtas, Bihar",
   bio: "I'm a passionate Full Stack Developer with expertise in creating responsive and user-friendly web applications. I love solving complex problems and turning ideas into reality through clean and efficient code.",
   longBio: "with a strong foundation in Java, ReactJS, and full-stack development. Passionate about solving complex problems and building scalable applications. Seeking an opportunity to contribute mytechnical skills and innovative mindset to a dynamic organization while continuously learning and growing in the field of software development. I'm constantly learning and exploring new technologies to stay at the cutting edge of web development.",
-  avatarUrl: "/images/AmanGupta.jpg",
+  avatarUrl: "/images/AmanKr.jpg",
   resumeUrl: "/assets/resume.pdf",
 };
 

@@ -281,7 +281,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: "4",
-    title: "Loot-code Problem solving with java",
+    title: "Leet-code Problem solving with java",
     excerpt: "Learn how to implement beautiful and performant animations in your React applications using Framer Motion.",
     image: "/assets/java.png",
     date: "2023-03-05",

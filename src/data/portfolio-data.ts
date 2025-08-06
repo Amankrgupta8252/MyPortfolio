@@ -141,27 +141,28 @@ export const experience: Experience[] = [
 
 export const projects: Project[] = [
   {
-    id: "1",
-    title: "Hotel Management System",
-    description: "A full-featured online store with product catalog, shopping cart, user authentication, and payment processing.",
-    image: "/assets/Projects/HotelBooking.jpg",
-    tags: ["React", "Node.js", "MongoDB", "Stripe", "Redux"],
-    githubUrl: "https://github.com/Amankrgupta8252/HotelManagement",
-    liveUrl: "https://ecommerce-demo.example.com",
-    github: "https://github.com/Amankrgupta8252/HotelManagement",
-    demo: "https://ecommerce-demo.example.com",
-    featured: true,
-    date: "2023-04-15",
-    slug: "ecommerce-platform",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe API", "Redux", "JWT"],
-    category: "Web Application",
-    gallery: [
-      "/assets/Projects/HotelBooking_1.jpg",
-      "/assets/Projects/HotelBooking_2.jpg",
-      "/assets/Projects/HotelBooking_3.jpg",
-      "/assets/Projects/HotelBooking_4.jpg"
-    ]
-  },
+  id: "1",
+  title: "Hotel Management System",
+  description: "A dynamic hotel booking system built using PHP and MySQL, featuring room listings, customer login/registration, booking management, and admin dashboard.",
+  image: "/assets/Projects/HotelBooking.jpg",
+  tags: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "Admin Panel"],
+  githubUrl: "https://github.com/Amankrgupta8252/HotelManagement",
+  liveUrl: "https://hotel-booking-demo.example.com",
+  github: "https://github.com/Amankrgupta8252/HotelManagement",
+  demo: "https://hotel-booking-demo.example.com",
+  featured: true,
+  date: "2023-04-15",
+  slug: "hotel-management-system",
+  technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "AJAX", "Bootstrap"],
+  category: "Web Application",
+  gallery: [
+    "/assets/Projects/HotelBooking_1.jpg",
+    "/assets/Projects/HotelBooking_2.jpg",
+    "/assets/Projects/HotelBooking_3.jpg",
+    "/assets/Projects/HotelBooking_4.jpg"
+  ]
+},
+
   {
     id: "2",
     title: "study companion App",

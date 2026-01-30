@@ -249,6 +249,22 @@ export const projects: Project[] = [
     technologies: ["React", "D3.js", "Node.js", "MongoDB", "Express"],
     category: "Health & Fitness"
   },
+  {
+    id: "7",
+    title: "E-commerce Store",
+    description: "A full-featured e-commerce platform with product listings, shopping cart, payment integration, and order management.",
+    image: "/assets/Projects/ecommerce.jpg",
+    tags: ["Flutter", "Stripe API", "Firebase"],
+    githubUrl: "https://github.com/username/ecommerce-store",
+    liveUrl: "https://ecommerce.example.com",
+    github: "https://github.com/username/ecommerce-store",
+    demo: "https://ecommerce.example.com",
+    featured: false,
+    date: "2026-01-06",
+    slug: "e-commerce-store",
+    technologies: ["Flutter", "Stripe API", "Firebase"],
+    category: "E-commerce"
+  }
 ];
 
 export const blogPosts: BlogPost[] = [

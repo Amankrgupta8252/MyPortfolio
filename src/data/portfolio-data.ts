@@ -253,7 +253,7 @@ export const projects: Project[] = [
     id: "7",
     title: "E-commerce Store",
     description: "A full-featured e-commerce platform with product listings, shopping cart, payment integration, and order management.",
-    image: "/assets/Projects/ecommerce.jpg",
+    image: "/assets/Projects/combined_wide.png",
     tags: ["Flutter", "Stripe API", "Firebase"],
     githubUrl: "https://github.com/username/ecommerce-store",
     liveUrl: "https://ecommerce.example.com",

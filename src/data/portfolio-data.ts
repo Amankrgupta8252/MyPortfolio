@@ -58,28 +58,30 @@ export interface BlogPost {
 // Data
 export const personalInfo = {
   name: "Aman Gupta",
-  title: "Full Stack Developer",
+  title: "Flutter Developer",
   email: "kramangupta8552@gmail.com",
   phone: "+91 825-233-9216",
   location: "Sasaram, Rohtas, Bihar",
-  bio: "I'm a passionate Full Stack Developer with expertise in creating responsive and user-friendly web applications. I love solving complex problems and turning ideas into reality through clean and efficient code.",
+  bio: "I'm a passionate Flutter Developer with expertise in creating responsive and user-friendly mobile applications. I love solving complex problems and turning ideas into reality through clean and efficient code.",
   longBio: "with a strong foundation in Java, ReactJS, and full-stack development. Passionate about solving complex problems and building scalable applications. Seeking an opportunity to contribute mytechnical skills and innovative mindset to a dynamic organization while continuously learning and growing in the field of software development. I'm constantly learning and exploring new technologies to stay at the cutting edge of web development.",
   avatarUrl: "/images/AmanKr.jpg",
   resumeUrl: "/assets/resume.pdf",
 };
 
 export const skills: Skill[] = [
-  { name: "React", icon: "react", level: 70, category: "frontend" },
-  { name: "JavaScript", icon: "javascript", level: 90, category: "languages" },
-  { name: "Java", icon: "java", level: 75, category: "languages" },
-  { name: "HTML5", icon: "html", level: 95, category: "frontend" },
-  { name: "CSS3/SASS", icon: "css", level: 90, category: "frontend" },
-  { name: "Node.js", icon: "nodejs", level: 80, category: "backend" },
-  { name: "Express", icon: "express", level: 75, category: "backend" },
-  { name: "MongoDB", icon: "mongodb", level: 70, category: "database" },
-  { name: "PostgreSQL", icon: "postgresql", level: 75, category: "database" },
-  { name: "Git", icon: "git", level: 75, category: "tools" },
-  { name: "Tailwind CSS", icon: "tailwind", level: 90, category: "frontend" },
+  { name: "React", icon: "react", level: 40, category: "frontend" },
+  { name: "Flutter", icon: "flutter", level: 45, category: "frontend" },
+  { name: "JavaScript", icon: "javascript", level: 30, category: "languages" },
+  { name: "Java", icon: "java", level: 55, category: "languages" },
+  { name: "HTML5", icon: "html", level: 75, category: "frontend" },
+  { name: "CSS3/SASS", icon: "css", level: 60, category: "frontend" },
+  { name: "Node.js", icon: "nodejs", level: 20, category: "backend" },
+  { name: "Express", icon: "express", level: 35, category: "backend" },
+  { name: "MongoDB", icon: "mongodb", level: 30, category: "database" },
+  { name: "PostgreSQL", icon: "postgresql", level: 37, category: "database" },
+  { name: "Git", icon: "git", level: 65, category: "tools" },
+  { name: "Tailwind CSS", icon: "tailwind", level: 20, category: "frontend" },
+
 ];
 
 export const education: Education[] = [
